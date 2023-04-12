@@ -1,0 +1,18 @@
+const plugin = require('tailwindcss/plugin')
+// const titanTheme = require('./titan-theme')
+const titanButton = require('./titan-button.js')
+const titanFormDropdown = require('./titan-form-dropdown.js')
+const titanFormElement = require('./titan-form-element.js')
+const titanHelperText = require('./titan-form-helper-text.js')
+const titanTextInput = require('./titan-form-text-input.js')
+const titanTextArea = require('./titan-form-text-area.js')
+
+module.exports = plugin(({ addBase, addComponents }) => {
+    // addBase(titanTheme)
+    addComponents(titanButton)
+    addComponents(titanFormDropdown)
+    addComponents(titanFormElement)
+    addComponents(titanHelperText)
+    addComponents(titanTextInput)
+    addComponents(titanTextArea)
+})
