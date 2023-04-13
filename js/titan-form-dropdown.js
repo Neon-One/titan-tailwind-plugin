@@ -25,7 +25,11 @@ module.exports = {
                 '@apply z-40 inline-block w-full rounded border border-solid border-titan-gray-200 bg-white font-titan-body text-sm shadow':
                     {},
                 '&.hidden': {
-                    '@apply absolute !-top-[99999999px] !-left-[-99999999px]': {},
+                    // Can not use @apply here for some reason it breaks the plugin in Events - no clue why
+                    // '@apply absolute !-top-[99999999px] !-left-[-99999999px]': {},
+                    position: 'absolute',
+                    top: '-99999999px',
+                    left: '-99999999px',
                 },
 
                 '.titan-dropdown-scrollable-section': {
