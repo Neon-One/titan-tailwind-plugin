@@ -1,4 +1,4 @@
-import { plugin } from 'tailwindcss'
+import plugin from 'tailwindcss/plugin'
 import titanButton from './titan-button.js'
 import titanFormDropdown from './titan-form-dropdown.js'
 import titanFormElement from './titan-form-element.js'
