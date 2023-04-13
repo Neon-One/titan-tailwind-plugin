@@ -28,8 +28,8 @@ module.exports = {
                     // Can not use @apply here for some reason it breaks the plugin in Events - no clue why
                     // '@apply absolute !-top-[99999999px] !-left-[-99999999px]': {},
                     position: 'absolute',
-                    top: '-99999999px',
-                    left: '-99999999px',
+                    top: '-99999999px !important',
+                    left: '-99999999px !important',
                 },
 
                 '.titan-dropdown-scrollable-section': {
