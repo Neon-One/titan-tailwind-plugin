@@ -1,10 +1,10 @@
-const plugin = require('tailwindcss/plugin')
-const titanButton = require('./titan-button.js')
-const titanFormDropdown = require('./titan-form-dropdown.js')
-const titanFormElement = require('./titan-form-element.js')
-const titanHelperText = require('./titan-form-helper-text.js')
-const titanTextInput = require('./titan-form-text-input.js')
-const titanTextArea = require('./titan-form-text-area.js')
+import { plugin } from 'tailwindcss'
+import titanButton from './titan-button.js'
+import titanFormDropdown from './titan-form-dropdown.js'
+import titanFormElement from './titan-form-element.js'
+import titanHelperText from './titan-form-helper-text.js'
+import titanTextInput from './titan-form-text-input.js'
+import titanTextArea from './titan-form-text-area.js'
 
 module.exports = plugin(({ addComponents }) => {
     addComponents(titanButton)

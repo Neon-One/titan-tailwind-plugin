@@ -10,7 +10,27 @@ Add this to your package.json devDependencies block:
 
 Run `npm update`
 
-Update your tailwind.config.js:
+Update your tailwind.config.js...
+
+Using modern import statements:
+
+```
+import titanTheme from 'titan-tailwind-plugin/js/titan-theme.js';
+import titanBase from 'titan-tailwind-plugin/js/titan-base.js';
+
+module.exports = {
+    ...
+    theme: {
+        extend: {
+            ...titanTheme,
+        },
+    },
+    plugins: [titanBase],
+};
+
+```
+
+Using require statements:
 
 ```
 const titanTheme = require('titan-tailwind-plugin/js/titan-theme.js')

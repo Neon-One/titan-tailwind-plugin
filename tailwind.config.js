@@ -1,4 +1,6 @@
+import titanBase from './js/titan-base.js'
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    plugins: [require('./js/titan-base.js')],
+    plugins: [titanBase],
 }
