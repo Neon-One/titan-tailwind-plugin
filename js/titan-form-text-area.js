@@ -15,6 +15,7 @@ module.exports = {
         '&.titan-form-element-large': {
             '.titan-text-area': {
                 '@apply h-10 text-base': {},
+                height: 'var(--text-area-height)',
             },
         },
         '&.titan-form-element-error': {
