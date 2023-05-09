@@ -14,8 +14,7 @@ module.exports = {
         // Overrides
         '&.titan-form-element-large': {
             '.titan-text-area': {
-                '@apply h-10 text-base': {},
-                height: 'var(--text-area-height)',
+                '@apply text-base': {},
             },
         },
         '&.titan-form-element-error': {
