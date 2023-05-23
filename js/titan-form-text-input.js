@@ -27,6 +27,8 @@ module.exports = {
                     {},
                 height: 'var(--text-input-height)',
                 border: 'var(--form-border-size) var(--form-border-type) var(--form-border-color-default)',
+                'border-radius': 'var(--text-input-radius)',
+
 
                 '&:not(:first-child)': {
                     '@apply rounded-l-none': {},
