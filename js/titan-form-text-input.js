@@ -14,6 +14,7 @@ module.exports = {
                 '@apply box-border flex items-center border border-solid border-titan-purple-100 bg-titan-gray-200 px-3 py-2 text-center font-titan-body text-sm text-titan-purple':
                     {},
                 height: 'var(--text-input-height)',
+                'border-radius': 'var(--text-input-radius)',
             },
             '.titan-text-input-prepend': {
                 '@apply rounded rounded-tr-none rounded-br-none border-r-0': {},
