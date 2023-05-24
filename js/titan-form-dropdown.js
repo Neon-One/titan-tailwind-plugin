@@ -19,6 +19,10 @@ module.exports = {
                 img: {
                     '@apply transition-all duration-[0.25s] ease-in-out': {},
                 },
+                i: {
+                    '@apply transition-all duration-[0.25s] ease-in-out': {},
+                },
+                color: 'var(--dropdown-caret-color)'
             },
 
             '.titan-dropdown': {
