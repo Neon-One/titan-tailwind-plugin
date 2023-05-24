@@ -11,11 +11,6 @@ module.exports = {
         },
     },
 
-    // Adjust border thickness on outline type buttons
-    '.button-fill-outline': {
-        'border-width': 'var(--btn-border-width)',
-    },
-
     // Theme: Primary + Solid
     '.button-type-primary.button-fill-solid': {
         '@apply hover:shadow-btn-lg active:shadow-none disabled:border-titan-purple-200 disabled:bg-titan-purple-200':
