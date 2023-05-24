@@ -16,9 +16,6 @@ module.exports = {
 
             '.caret': {
                 '@apply absolute top-1/2 right-4 -translate-y-1/2 text-[0]': {},
-                img: {
-                    '@apply transition-all duration-[0.25s] ease-in-out': {},
-                },
                 i: {
                     '@apply transition-all duration-[0.25s] ease-in-out': {},
                 },
