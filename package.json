@@ -1,0 +1,5 @@
+{
+    "name": "titan-tailwind-plugin",
+    "version": "1.0.0",
+    "description": "This package will share the Titan config options to projects using Tailwind"
+}
